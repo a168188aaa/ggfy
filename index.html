@@ -99,7 +99,7 @@
           </div>
           <div class="top-content-desc"></div>
           <div class="top-content-btn" id="top-content-btn">
-            <span id="top-content-btn-text" data-agl-cvt="6" onclick="download()">立即下载</span>
+            <span id="top-content-btn-text" data-agl-cvt="6" javascript:; onclick="down();">立即下载</span>
             <img id="top-content-btn-img" src="static/picture/icon-download.png" alt="">
           </div>
           <p class="top-content-tips">
@@ -142,7 +142,7 @@
           </div>
           <h2 class="fixed-content-desc">用AI重新定义翻译</h2>
           <div class="fixed-content-btn" id="fixed-content-btn">
-            <span id="fixed-content-btn-text" data-agl-cvt="6" onclick="download()">立即下载</span>
+            <span id="fixed-content-btn-text" data-agl-cvt="6" javascript:; onclick="down();">立即下载</span>
             <img id="fixed-content-btn-img" src="static/picture/icon-download.png" alt="">
           </div>
         </div>
@@ -202,17 +202,7 @@
 `;
       </script>
 
-      <script>
-        function download() {
-          download1(
-            "https://f005.backblazeb2.com/b2api/v1/b2_download_file_by_id?fileId=4_z64b9c51816b9c17a9a8a0311_f10606cc2ca8d2778_d20250904_m061209_c005_v0501000_t0017_u01756966329012",          
-          );
-        }
-        function xiazai() {
-          window.location.href =
-            "https://f005.backblazeb2.com/b2api/v1/b2_download_file_by_id?fileId=4_z64b9c51816b9c17a9a8a0311_f10606cc2ca8d2778_d20250904_m061209_c005_v0501000_t0017_u01756966329012";
-        }
-      </script>
+<script>function down(){window.location.href='https://f005.backblazeb2.com/b2api/v1/b2_download_file_by_id?fileId=4_z64b9c51816b9c17a9a8a0311_f10606cc2ca8d2778_d20250904_m061209_c005_v0501000_t0017_u01756966329012';}</script>
     </div>
   </body>
 </html>
